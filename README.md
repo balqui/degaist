@@ -1,4 +1,4 @@
-# degais
+# degaifs
 
 ### Decomposing Gaifman Structures (again)
 
@@ -15,7 +15,7 @@ Check out this one day.
 <br>
 
 (Image: screen capture of the outcome of 
-`degais zoo --coloring expwidth --param 3.9`.)
+`degaifs zoo --coloring expwidth --param 3.9`.)
 
 <br>
 <br>
@@ -30,7 +30,7 @@ although fully rewritten.
 
 Copyleft: [MIT License](https://en.wikipedia.org/wiki/MIT_License).
 
-Usage: [Documentation](https://github.com/balqui/degais/blob/main/docs/doc.md)
+Usage: [Documentation](https://github.com/balqui/degaifs/blob/main/docs/doc.md)
 is rather minimal as of today but covers the basics. 
 
 Umpteenth attempt at having a working platform on which 
