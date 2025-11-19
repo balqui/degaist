@@ -1,5 +1,5 @@
 '''
-DeGaiS: Decomposing Gaifman Structures
+DeGaifS: Decomposing Gaifman Structures
 
 Current version: early Frimaire 2024
 
@@ -33,8 +33,8 @@ from palette import Palette
     # ~ ident, binary, thresh, linwidth, expwidth, lguess, eguess
 
 # ident: keeps multiplicities as labels
-# binary: labels 0/1 give, essentially, a standard Gaifman graph
-# thresh: thresholded Gaifman graph, threshold given as param
+# binary: labels 0/1 give, essentially, a standard fman graph
+# thresh: thresholded fman graph, threshold given as param
 # linwidth: linear Gaifman graph, interval width given as param,
 #   default value provided by lguess
 # expwidth: exponential Gaifman graph, base given as param,
@@ -55,7 +55,7 @@ def run():
         )
 
     argp.add_argument('-V', '--version', action = 'version', 
-       version = "degais " + VERSION,
+       version = "degaifs " + VERSION,
        help = "print version and exit")
 
     argp.add_argument('dataset', nargs = '?', default = None, 
